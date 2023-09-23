@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -24,7 +24,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="for HYBE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fCZ-Zq-8rf">
-                                <rect key="frame" x="142" y="473" width="108" height="33"/>
+                                <rect key="frame" x="142.66666666666666" y="465.66666666666669" width="108" height="33"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="30"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -34,7 +34,7 @@
                         <color key="backgroundColor" systemColor="systemPinkColor"/>
                         <constraints>
                             <constraint firstItem="fCZ-Zq-8rf" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="0t5-2r-paf"/>
-                            <constraint firstItem="fCZ-Zq-8rf" firstAttribute="top" secondItem="HwT-1f-cot" secondAttribute="bottom" constant="7.3333333333333712" id="6WI-P4-hRN"/>
+                            <constraint firstItem="fCZ-Zq-8rf" firstAttribute="top" secondItem="HwT-1f-cot" secondAttribute="bottom" id="6WI-P4-hRN"/>
                             <constraint firstItem="HwT-1f-cot" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="AlB-N0-Kx7"/>
                             <constraint firstItem="HwT-1f-cot" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="Zhk-SX-d19"/>
                         </constraints>
@@ -47,7 +47,7 @@
     </scenes>
     <resources>
         <systemColor name="systemPinkColor">
-            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
